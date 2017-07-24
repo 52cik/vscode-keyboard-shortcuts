@@ -120,7 +120,7 @@ var app = new Vue({
     },
   },
   mounted() {
-    $.get('/platforms/' + this.active + '.json', function(res) {
+    $.get('platforms/' + this.active + '_cn.json', function(res) {
       app.platforms[app.active] = res;
     }, 'json');
   }
