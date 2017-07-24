@@ -1,0 +1,182 @@
+{
+  "subtitle": "Keyboard shortcuts for Mac",
+  "types": [
+    {
+      "title": "General",
+      "list": [
+        { "key": "⇧⌘P, F1", "caption": "Show Command Palette" },
+        { "key": "⌘P", "caption": "Quick Open" },
+        { "key": "⇧⌘N", "caption": "New window/instance" },
+        { "key": "⌘W", "caption": "Close window/instance" }
+      ]
+    },
+    {
+      "title": "Basic editing",
+      "list": [
+        { "key": "⌘X", "caption": "Cut line (empty selection)" },
+        { "key": "⌘C", "caption": "Copy line (empty selection)" },
+        { "key": "⌥↓ / ⌥↑", "caption": "Move line down/up" },
+        { "key": "⇧⌥↓ / ⇧⌥↑", "caption": "Copy line down/up" },
+        { "key": "⇧⌘K", "caption": "Delete line" },
+        { "key": "⌘Enter / ⇧⌘Enter", "caption": "Insert line below/above" },
+        { "key": "⇧⌘\\", "caption": "Jump to matching bracket" },
+        { "key": "⌘] / ⌘[", "caption": "Indent/outdent line" },
+        { "key": "Home / End", "caption": "Go to beginning/end of line" },
+        { "key": "⌘↑ / ⌘↓", "caption": "Go to beginning/end of file" },
+        { "key": "⌃PgUp", "caption": "Scroll line up" },
+        { "key": "⌃PgDown", "caption": "Scroll line down" },
+        { "key": "⌘PgUp /⌘PgDown", "caption": "Scroll page up/down" },
+        { "key": "⇧⌘[ / ⇧⌘]", "caption": "Fold/unfold region" },
+        { "key": "⌘K ⌘[ / ⌘K ⌘]", "caption": "Fold/unfold all subregions" },
+        { "key": "⌘K ⌘0 / ⌘K ⌘J", "caption": "Fold/unfold all regions" },
+        { "key": "⌘K ⌘C", "caption": "Add line comment" },
+        { "key": "⌘K ⌘U", "caption": "Remove line comment" },
+        { "key": "⌘/", "caption": "Toggle line comment" },
+        { "key": "⇧⌥A", "caption": "Toggle block comment" },
+        { "key": "⌥Z", "caption": "Toggle word wrap" }
+      ]
+    },
+    {
+      "title": "Multi-cursor and selection",
+      "list": [
+        { "key": "Alt+Click", "caption": "Insert cursor" },
+        { "key": "⌥⌘↑", "caption": "Insert cursor above" },
+        { "key": "⌥⌘↓", "caption": "Insert cursor below" },
+        { "key": "⌘U", "caption": "Undo last cursor operation" },
+        { "key": "⇧⌥I", "caption": "Insert cursor at end of each line selected" },
+        { "key": "⌘I", "caption": "Select current line" },
+        { "key": "⇧⌘L", "caption": "Select all occurrences of current selection" },
+        { "key": "⌘F2", "caption": "Select all occurrences of current word" },
+        { "key": "⌃⇧⌘→", "caption": "Expand selection" },
+        { "key": "⌃⇧⌘←", "caption": "Shrink selection" },
+        { "key": "Shift+Alt + drag mouse", "caption": "Column (box) selection" },
+        { "key": "⇧⌥⌘↑", "caption": "Column (box) selection up" },
+        { "key": "⇧⌥⌘↓", "caption": "Column (box) selection down" },
+        { "key": "⇧⌥⌘←", "caption": "Column (box) selection left" },
+        { "key": "⇧⌥⌘→", "caption": "Column (box) selection right" },
+        { "key": "⇧⌥⌘PgUp", "caption": "Column (box) selection page up" },
+        { "key": "⇧⌥⌘PgDown", "caption": "Column (box) selection page down" }
+      ]
+    },
+    {
+      "title": "Search and replace",
+      "list": [
+        { "key": "⌘F", "caption": "Find" },
+        { "key": "⌥⌘F", "caption": "Replace" },
+        { "key": "⌘G / ⇧⌘G", "caption": "Find next/previous" },
+        { "key": "⌥Enter", "caption": "Select all occurrences of Find match" },
+        { "key": "⌘D", "caption": "Add selection to next Find match" },
+        { "key": "⌘K ⌘D", "caption": "Move last selection to next Find match" }
+      ]
+    },
+    {
+      "title": "Rich languages editing",
+      "list": [
+        { "key": "⌃Space", "caption": "Trigger suggestion" },
+        { "key": "⇧⌘Space", "caption": "Trigger parameter hints" },
+        { "key": "Tab", "caption": "Emmet expand abbreviation" },
+        { "key": "⇧⌥F", "caption": "Format document" },
+        { "key": "⌘K ⌘F", "caption": "Format selection" },
+        { "key": "F12", "caption": "Go to Definition" },
+        { "key": "⌥F12", "caption": "Peek Definition" },
+        { "key": "⌘K F12", "caption": "Open Definition to the side" },
+        { "key": "⌘.", "caption": "Quick Fix" },
+        { "key": "⇧F12", "caption": "Show References" },
+        { "key": "F2", "caption": "Rename Symbol" },
+        { "key": "⇧⌘. / ⇧⌘,", "caption": "Replace with next/previous value" },
+        { "key": "⌘K ⌘X", "caption": "Trim trailing whitespace" },
+        { "key": "⌘K M", "caption": "Change file language" }
+      ]
+    },
+    {
+      "title": "Navigation",
+      "list": [
+        { "key": "⌘T", "caption": "Show all Symbols" },
+        { "key": "⌃G", "caption": "Go to Line..." },
+        { "key": "⌘P", "caption": "Go to File..." },
+        { "key": "⇧⌘O", "caption": "Go to Symbol..." },
+        { "key": "⇧⌘M", "caption": "Show Problems panel" },
+        { "key": "F8 / ⇧F8", "caption": "Go to next/previous error or warning" },
+        { "key": "⌃⇧Tab", "caption": "Navigate editor group history" },
+        { "key": "⌃- / ⌃⇧-", "caption": "Go back/forward" },
+        { "key": "⌃⇧M", "caption": "Toggle Tab moves focus" }
+      ]
+    },
+    {
+      "title": "Editor management",
+      "list": [
+        { "key": "⌘W", "caption": "Close editor" },
+        { "key": "⌘K F", "caption": "Close folder" },
+        { "key": "⌘\\", "caption": "Split editor" },
+        { "key": "⌘1 / ⌘2 / ⌘3", "caption": "Focus into 1st, 2nd, 3rd editor group" },
+        { "key": "⌘K ⌘← / ⌘K ⌘→", "caption": "Focus into previous/next editor group" },
+        { "key": "⌘K ⇧⌘← / ⌘K ⇧⌘→", "caption": "Move editor left/right" },
+        { "key": "⌘K ← / ⌘K →", "caption": "Move active editor group" }
+      ]
+    },
+    {
+      "title": "File management",
+      "list": [
+        { "key": "⌘N", "caption": "New File" },
+        { "key": "⌘O", "caption": "Open File..." },
+        { "key": "⌘S", "caption": "Save" },
+        { "key": "⇧⌘S", "caption": "Save As..." },
+        { "key": "⌥⌘S", "caption": "Save All" },
+        { "key": "⌘W", "caption": "Close" },
+        { "key": "⌘K ⌘W", "caption": "Close All" },
+        { "key": "⇧⌘T", "caption": "Reopen closed editor" },
+        { "key": "⌘K", "caption": "Enter Keep Open" },
+        { "key": "⌃Tab / ⌃⇧Tab", "caption": "Open next / previous" },
+        { "key": "⌘K P", "caption": "Copy path of active file" },
+        { "key": "⌘K R", "caption": "Reveal active file in Explorer" },
+        { "key": "⌘K O", "caption": "Show active file in new window/instance" }
+      ]
+    },
+    {
+      "title": "Display",
+      "list": [
+        { "key": "⌃⌘F", "caption": "Toggle full screen" },
+        { "key": "⌥⌘1", "caption": "Toggle editor layout" },
+        { "key": "⌘= / ⇧⌘-", "caption": "Zoom in/out" },
+        { "key": "⌘B", "caption": "Toggle Sidebar visibility" },
+        { "key": "⇧⌘E", "caption": "Show Explorer / Toggle focus" },
+        { "key": "⇧⌘F", "caption": "Show Search" },
+        { "key": "⌃⇧G", "caption": "Show Git" },
+        { "key": "⇧⌘D", "caption": "Show Debug" },
+        { "key": "⇧⌘X", "caption": "Show Extensions" },
+        { "key": "⇧⌘H", "caption": "Replace in files" },
+        { "key": "⇧⌘J", "caption": "Toggle Search details" },
+        { "key": "⇧⌘C", "caption": "Open new command prompt/terminal" },
+        { "key": "⇧⌘U", "caption": "Show Output panel" },
+        { "key": "⇧⌘V", "caption": "Toggle Markdown preview" },
+        { "key": "⌘K V", "caption": "Open Markdown preview to the side" }
+      ]
+    },
+    {
+      "title": "Debug",
+      "list": [
+        { "key": "F9", "caption": "Toggle breakpoint" },
+        { "key": "F5", "caption": "Start/Continue" },
+        { "key": "F11 / ⇧F11", "caption": "Step into/ out" },
+        { "key": "F10", "caption": "Step over" },
+        { "key": "⇧F5", "caption": "Stop" },
+        { "key": "⌘K ⌘I", "caption": "Show hover" }
+      ]
+    },
+    {
+      "title": "Integrated terminal",
+      "list": [
+        { "key": "⌃`", "caption": "Show integrated terminal" },
+        { "key": "⌃⇧`", "caption": "Create new terminal" },
+        { "key": "unassigned", "caption": "Copy selection" },
+        { "key": "unassigned", "caption": "Paste into active terminal" },
+        { "key": "⌘↑", "caption": "Scroll up" },
+        { "key": "⌘↓", "caption": "Scroll down" },
+        { "key": "PgUp", "caption": "Scroll page up" },
+        { "key": "PgDown", "caption": "Scroll page down" },
+        { "key": "⌘Home", "caption": "Scroll to top" },
+        { "key": "⌘End", "caption": "Scroll to bottom" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <title>Visual Studio Code - 快捷键参考</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+
+  [v-cloak] {
+    display: none;
+  }
+
+  .keyboard-shortcuts {
+    padding: 30px 25px;
+    column-count: 3;  
+    column-gap: 50px;  
+  }
+
+  .keyboard-shortcuts .shortcuts-header {
+    position: relative;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOCIgaGVpZ2h0PSIyOSI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTIxIDBsLTExIDEyLTcuMzMzLTUuNjY2LTIuNjY3IDEuNjgydjEzLjk4NGwyLjY2NyAxLjY2NiA3LjMzMy01LjY2NiAxMSAxMSA3LTN2LTIyLjMzM2wtNy0zLjY2N3ptLTE4IDE5di05bDQgNS00IDR6bTExLTRsNy02djEybC03LTZ6Ii8+PC9zdmc+);
+    background-size: 42px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+  }
+
+  .keyboard-shortcuts .shortcuts-header > .title {
+    font-size: 28px;
+  }
+  .keyboard-shortcuts .shortcuts-header > .subtitle {
+    font-size: 15px;
+    text-indent: 5px;
+  }
+
+  .keyboard-shortcuts .shortcuts-list {
+    margin-top: 15px;
+    list-style: none;
+  }
+
+  .keyboard-shortcuts .shortcuts-title {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #808080;
+    margin-bottom: 5px;
+  }
+
+  .keyboard-shortcuts .shortcuts-item {
+    line-height: 1.8;
+  }
+
+  .keyboard-shortcuts .shortcuts-item:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .keyboard-shortcuts .shortcuts-name {
+    display: inline-block;
+    width: 36%;
+    min-width: 130px;
+  }
+
+  .description {
+    margin-top: 40px;
+  }
+  </style>
+</head>
+<body>
+
+<div id="app" v-cloak class="keyboard-shortcuts">
+  <header class="shortcuts-header">
+    <h1 class="title">Visual Studio Code</h1>
+    <p class="subtitle">{{docs.subtitle}}</p>
+  </header>
+
+  <ul v-for="type of docs.types" class="shortcuts-list">
+    <li class="shortcuts-title">{{type.title}}</li>
+    <li v-for="short of type.list" class="shortcuts-item">
+      <span class="shortcuts-name">{{short.key}}</span>
+      <span class="shortcuts-desc">{{short.caption}}</span>
+    </li>
+  </ul>
+
+  <div class="description">
+    <p title="Other operating systems’ keyboard shortcuts and additional unassigned shortcuts available at aka.ms/vscodekeybindings">
+      其他操作系统的键盘快捷键和其他未分配的快捷方式可在
+      <a href="http://aka.ms/vscodekeybindings">aka.ms/vscodekeybindings</a>
+      获得。
+    </p>
+  </div>
+</div>
+
+<script src="//lib.baomitu.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//lib.baomitu.com/vue/2.3.4/vue.min.js"></script>
+<script>
+var app = new Vue({
+  el: '#app',
+  data: {
+    active: 'mac',
+    platforms: {
+      mac: {},
+      win: {},
+      linux: {},
+    },
+  },
+  computed: {
+    docs() {
+      return this.platforms[this.active];
+    },
+  },
+  mounted() {
+    $.get('/platforms/' + this.active + '.json', function(res) {
+      app.platforms[app.active] = res;
+    }, 'json');
+  }
+});
+</script>
+</body>
+</html>
