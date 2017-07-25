@@ -1,6 +1,6 @@
 # Visual Studio Code 快捷键参考 - 中文翻译
 
-预览 http://52cik.github.io/vscode-keyboard-shortcuts/
+预览 [Visual Studio Code 快捷键参考](http://52cik.github.io/vscode-keyboard-shortcuts/)
 
 > 这是官网手册 https://go.microsoft.com/fwlink/?linkid=832143 的汉化版本。
 > 这个手册中记录并分类了常用的快捷键。
