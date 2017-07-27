@@ -78,7 +78,7 @@
         { "key": "⇧⌥F", "caption": "格式化文件" },
         { "key": "⌘K ⌘F", "caption": "格式化选定代码" },
         { "key": "F12", "caption": "转到定义" },
-        { "key": "⌥F12", "caption": "Peek定义" },
+        { "key": "⌥F12", "caption": "Peek 定义" },
         { "key": "⌘K F12", "caption": "打开定义到侧边" },
         { "key": "⌘.", "caption": "快速解决" },
         { "key": "⇧F12", "caption": "显示引用" },

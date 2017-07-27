@@ -59,6 +59,7 @@
 
   .keyboard-shortcuts .shortcuts-item {
     line-height: 1.8;
+    overflow: hidden;
   }
 
   .keyboard-shortcuts .shortcuts-item:nth-child(even) {
@@ -66,13 +67,24 @@
   }
 
   .keyboard-shortcuts .shortcuts-name {
-    display: inline-block;
+    display: block;
+    float: left;
     width: 36%;
     min-width: 130px;
+    word-wrap: break-word;
+    word-break: break-word;
+    font-weight: bold;
   }
 
   .description {
     margin-top: 40px;
+  }
+
+  .platforms {
+    text-align: right;
+    position: absolute;
+    top: 3.4em;
+    right: 0;
   }
   </style>
 </head>
@@ -82,6 +94,12 @@
   <header class="shortcuts-header">
     <h1 class="title">Visual Studio Code</h1>
     <p class="subtitle">{{docs.subtitle}}</p>
+    <div class="platforms">
+      <select v-model="active">
+        <option>mac</option>
+        <option>win</option>
+      </select>
+    </div>
   </header>
 
   <ul v-for="type of docs.types" class="shortcuts-list">
@@ -120,11 +138,18 @@ var app = new Vue({
     },
   },
   mounted() {
-    $.get('platforms/' + this.active + '_cn.json', function(res) {
-      app.platforms[app.active] = res;
-    }, 'json');
+    getData('mac', 'cn', function (res) {
+      app.platforms.mac = res;
+    });
+    getData('win', 'cn', function (res) {
+      app.platforms.win = res;
+    });
   }
 });
+
+function getData(platform, lang, cb) {
+  $.get('platforms/' + platform + '_' + lang + '.json', cb, 'json');
+}
 </script>
 </body>
 </html>
