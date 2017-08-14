@@ -73,7 +73,7 @@
       "title": "富语言编辑",
       "list": [
         { "key": "⌃Space", "caption": "触发建议" },
-        { "key": "⇧⌘Space", "caption": "触发器参数提示" },
+        { "key": "⇧⌘Space", "caption": "触发参数提示" },
         { "key": "Tab", "caption": "Emmet 展开缩写" },
         { "key": "⇧⌥F", "caption": "格式化文件" },
         { "key": "⌘K ⌘F", "caption": "格式化选定代码" },

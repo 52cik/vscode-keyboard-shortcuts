@@ -89,7 +89,7 @@
       "title": "富语言编辑",
       "list": [
         { "key": "Ctrl+Space", "caption": "触发建议" },
-        { "key": "Ctrl+Shift+Space", "caption": "触发器参数提示" },
+        { "key": "Ctrl+Shift+Space", "caption": "触发参数提示" },
         { "key": "Tab", "caption": "Emmet 展开缩写" },
         { "key": "Shift+Alt+F", "caption": "格式化文件" },
         { "key": "Ctrl+K Ctrl+F", "caption": "格式化选定代码" },
