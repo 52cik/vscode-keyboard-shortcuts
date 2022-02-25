@@ -98,6 +98,7 @@
       <select v-model="active">
         <option>mac</option>
         <option>win</option>
+	<option>linux</option>
       </select>
     </div>
   </header>
@@ -143,6 +144,9 @@ var app = new Vue({
     });
     getData('win', 'cn', function (res) {
       app.platforms.win = res;
+    });
+    getData('linux', 'cn', function (res) {
+      app.platforms.linux = res;
     });
   }
 });
