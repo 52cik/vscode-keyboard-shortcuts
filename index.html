@@ -98,7 +98,7 @@
       <select v-model="active">
         <option>mac</option>
         <option>win</option>
-	<option>linux</option>
+  <option>linux</option>
       </select>
     </div>
   </header>
@@ -120,13 +120,16 @@
   </div>
 </div>
 
-<script src="//lib.baomitu.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//lib.baomitu.com/vue/2.3.4/vue.min.js"></script>
+<script 
+src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script 
+>
+<script 
+src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
 <script>
 var app = new Vue({
   el: '#app',
   data: {
-    active: 'mac',
+    active: 'linux',
     platforms: {
       mac: {},
       win: {},
@@ -157,3 +160,4 @@ function getData(platform, lang, cb) {
 </script>
 </body>
 </html>
+
