@@ -1,0 +1,179 @@
+{
+    "subtitle": "快捷键参考 - Linux",
+    "types": [
+      {
+        "title": "常用",
+        "list": [
+          { "key": "Ctrl+Shift+P, F1", "caption": "显示命令面板" },
+          { "key": "Ctrl+P", "caption": "快速打开" },
+          { "key": "Ctrl+Shift+N", "caption": "新建窗口/实例" },
+          { "key": "Ctrl+Shift+W", "caption": "关闭窗口/实例" }
+        ]
+      },
+      {
+        "title": "基础编辑",
+        "list": [
+          { "key": "Ctrl+X", "caption": "剪切行 (空选定)" },
+          { "key": "Ctrl+C", "caption": "复制行 (空选定)" },
+          { "key": "Alt+ ↑ / ↓", "caption": "向上/向下移动行" },
+          { "key": "Shift+Alt + ↓ / ↑", "caption": "向上/向下复制行" },
+          { "key": "Ctrl+Shift+K", "caption": "删除行" },
+          { "key": "Ctrl+Enter", "caption": "在下面插入行" },
+          { "key": "Ctrl+Shift+Enter", "caption": "在上面插入行" },
+          { "key": "Ctrl+Shift+\\", "caption": "跳到匹配的括号" },
+          { "key": "Ctrl+] / [", "caption": "行增加/减少缩进" },
+          { "key": "Home", "caption": "转到行首" },
+          { "key": "End", "caption": "转到行尾" },
+          { "key": "Ctrl+Home", "caption": "转到文件开头" },
+          { "key": "Ctrl+End", "caption": "转到文件末尾" },
+          { "key": "Ctrl+↑ / ↓", "caption": "向上/向下滚动(行)" },
+          { "key": "Alt+PgUp /", "caption": "向上/向下滚动(页)" },
+          { "key": "Ctrl+Shift+[", "caption": "折叠区域" },
+          { "key": "Ctrl+Shift+]", "caption": "展开区域" },
+          { "key": "Ctrl+K Ctrl+[", "caption": "折叠所有子区域" },
+          { "key": "Ctrl+K Ctrl+]", "caption": "展开所有子区域" },
+          { "key": "Ctrl+K Ctrl+0", "caption": "折叠所有区域" },
+          { "key": "Ctrl+K Ctrl+J", "caption": "展开所有区域" },
+          { "key": "Ctrl+K Ctrl+C", "caption": "添加行注释" },
+          { "key": "Ctrl+K Ctrl+U", "caption": "删除行注释" },
+          { "key": "Ctrl+/", "caption": "切换行注释" },
+          { "key": "Shift+Alt+A", "caption": "切换块注释" },
+          { "key": "Alt+Z", "caption": "切换自动换行" }
+        ]
+      },
+      {
+        "title": "富语言编辑",
+        "list": [
+          { "key": "Ctrl+Space, Ctrl+I", "caption": "触发建议" },
+          { "key": "Ctrl+Shift+Space", "caption": "触发参数提示" },
+          { "key": "Shift+Alt+I", "caption": "格式化文件" },
+          { "key": "Ctrl+K Ctrl+F", "caption": "格式化选定代码" },
+          { "key": "F12", "caption": "转到定义" },
+          { "key": "Ctrl+Shift+F10", "caption": "显示代码定义片段" },
+          { "key": "Ctrl+K F12", "caption": "打开定义到侧边" },
+          { "key": "Ctrl+.", "caption": "快速解决" },
+          { "key": "Shift+F12", "caption": "显示引用" },
+          { "key": "F2", "caption": "重命名符号" },
+          { "key": "Ctrl+K Ctrl+X", "caption": "裁剪尾随空格" },
+          { "key": "Ctrl+K M", "caption": "更改文件语言" }
+        ]
+      },
+      {
+        "title": "多光标和选择",
+        "list": [
+          { "key": "Alt+Click", "caption": "插入光标" },
+          { "key": "Shift+Alt+ ↑ / ↓", "caption": "在上面/下面插入光标" },
+          { "key": "Ctrl+U", "caption": "撤消上一个光标操作" },
+          { "key": "Shift+Alt+I", "caption": "在选定的每一行末尾插入光标" },
+          { "key": "Ctrl+I", "caption": "选择当前行" },
+          { "key": "Ctrl+Shift+L", "caption": "选择所有找到的查找匹配项" },
+          { "key": "Ctrl+F2", "caption": "选择所有当前找到的单词" },
+          { "key": "Shift+Alt+→", "caption": "扩大选择" },
+          { "key": "Shift+Alt+←", "caption": "缩小选择" },
+          { "key": "Shift+Alt+(拖动鼠标)", "caption": "列 (框) 选择" },
+          { "key": "Ctrl+Shift+Alt+(箭头)", "caption": "列 (框) 选择(行)" }
+        ]
+      },
+      {
+        "title": "显示",
+        "list": [
+          { "key": "F11", "caption": "切换全屏" },
+          { "key": "Shift+Alt+0", "caption": "切换编辑器布局" },
+          { "key": "Ctrl+ = / -", "caption": "放大/缩小" },
+          { "key": "Ctrl+B", "caption": "切换侧栏可见性" },
+          { "key": "Ctrl+Shift+E", "caption": "显示资源管理器/切换焦点" },
+          { "key": "Ctrl+Shift+F", "caption": "显示搜索" },
+          { "key": "Ctrl+Shift+G", "caption": "显示Git源代码" },
+          { "key": "Ctrl+Shift+D", "caption": "显示调试" },
+          { "key": "Ctrl+Shift+X", "caption": "显示扩展" },
+          { "key": "Ctrl+Shift+H", "caption": "在文件中替换" },
+          { "key": "Ctrl+Shift+J", "caption": "切换搜索详细信息" },
+          { "key": "Ctrl+Shift+C", "caption": "打开新命令提示符/终端" },
+          { "key": "Ctrl+K Ctrl+H", "caption": "显示输出面板" },
+          { "key": "Ctrl+Shift+V", "caption": "切换Markdown预览" },
+          { "key": "Ctrl+K V", "caption": "从侧边打开Markdown预览" },
+          { "key": "Ctrl+K Z", "caption": "禅模式 (Esc 退出)" }
+        ]
+      },
+      {
+        "title": "查找和替换",
+        "list": [
+          { "key": "Ctrl+F", "caption": "查找" },
+          { "key": "Ctrl+H", "caption": "替换" },
+          { "key": "F3 / Shift+F3", "caption": "查找下一个/上一个" },
+          { "key": "Alt+Enter", "caption": "选择所有找到的查找匹配项" },
+          { "key": "Ctrl+D", "caption": "将选择添加到下一个查找匹配项" },
+          { "key": "Ctrl+K Ctrl+D", "caption": "将上次选择移动到下一个查找匹配项" }
+        ]
+      },
+      {
+        "title": "导航",
+        "list": [
+          { "key": "Ctrl+T", "caption": "显示所有符号" },
+          { "key": "Ctrl+G", "caption": "转到行..." },
+          { "key": "Ctrl+P", "caption": "转到文件..." },
+          { "key": "Ctrl+Shift+O", "caption": "转到符号..." },
+          { "key": "Ctrl+Shift+M", "caption": "显示问题面板" },
+          { "key": "F8", "caption": "转到下一个错误或警告" },
+          { "key": "Shift+F8", "caption": "转到上一个错误或警告" },
+          { "key": "Ctrl+Shift+Tab", "caption": "导航编辑器组历史记录" },
+          { "key": "Ctrl+Alt+-", "caption": "后退" },
+          { "key": "Ctrl+Shift+-", "caption": "前进" },
+          { "key": "Ctrl+M", "caption": "切换 Tab 键是否移动焦点" }
+        ]
+      },
+      {
+        "title": "编辑器管理",
+        "list": [
+          { "key": "Ctrl+W", "caption": "关闭编辑器" },
+          { "key": "Ctrl+K F", "caption": "关闭文件夹" },
+          { "key": "Ctrl+\\", "caption": "拆分编辑器" },
+          { "key": "Ctrl+ 1 / 2 / 3", "caption": "聚焦到第1, 第2或第3编辑器组" },
+          { "key": "Ctrl+K Ctrl+ ←/→", "caption": "聚焦到上一个/下一个编辑器组" },
+          { "key": "Ctrl+Shift+PgUp / PgDown", "caption": "向左/向右移动编辑器" },
+          { "key": "Ctrl+K ← / →", "caption": "移动活动编辑器组" }
+        ]
+      },
+      {
+        "title": "文件管理",
+        "list": [
+          { "key": "Ctrl+N", "caption": "新建文件" },
+          { "key": "Ctrl+O", "caption": "打开文件..." },
+          { "key": "Ctrl+S", "caption": "保存" },
+          { "key": "Ctrl+Shift+S", "caption": "另存为..." },
+          { "key": "Ctrl+W", "caption": "关闭" },
+          { "key": "Ctrl+K Ctrl+W", "caption": "关闭所有" },
+          { "key": "Ctrl+Shift+T", "caption": "重新打开已关闭的编辑器" },
+          { "key": "Ctrl+K Enter", "caption": "输入保持打开" },
+          { "key": "Ctrl+Tab", "caption": "打开下一个" },
+          { "key": "Ctrl+Shift+Tab", "caption": "打开上一个" },
+          { "key": "Ctrl+K P", "caption": "复制活动文件的路径" },
+          { "key": "Ctrl+K R", "caption": "在资源管理器中显示活动文件" },
+          { "key": "Ctrl+K O", "caption": "在新窗口/实例中显示活动文件" }
+        ]
+      },
+      {
+        "title": "调试",
+        "list": [
+          { "key": "F9", "caption": "切换断点" },
+          { "key": "F5", "caption": "开始/继续" },
+          { "key": "Shift+F5", "caption": "停止" },
+          { "key": "F11 / Shift+F11", "caption": "单步进入/跳出" },
+          { "key": "F10", "caption": "单步跳过" },
+          { "key": "Ctrl+K Ctrl+I", "caption": "显示悬停" }
+        ]
+      },
+      {
+        "title": "集成终端",
+        "list": [
+          { "key": "Ctrl+`", "caption": "显示集成终端" },
+          { "key": "Ctrl+Shift+`", "caption": "新建集成终端" },
+          { "key": "Ctrl+Shift+C", "caption": "复制所选内容" },
+          { "key": "Ctrl+Shift+V", "caption": "粘帖到活动终端中" },
+          { "key": "Ctrl+↑ / ↓", "caption": "向上/向下滚动(行)" },
+          { "key": "Shift+PgUp / PgDown", "caption": "向上/向下滚动(页)" },
+          { "key": "Ctrl+Home / End", "caption": "滚动到顶部/底部" }
+        ]
+      }
+    ]
+  }
